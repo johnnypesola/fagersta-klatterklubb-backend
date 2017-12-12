@@ -6,10 +6,9 @@ use Slim\Http\Response;
 // Routes
 
 $app->get('/', function (Request $request, Response $response, array $args) {
+
     // Sample log message
     $this->logger->info("'/' route");
 
     return $response->withStatus(400);
 });
-
-require __DIR__ . './routes/pages.php';

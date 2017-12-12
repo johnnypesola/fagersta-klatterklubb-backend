@@ -27,7 +27,8 @@
         }
     },
     "config": {
-        "process-timeout" : 0
+        "process-timeout" : 0,
+        "secure-http" : false
     },
     "scripts": {
         "start": "php -S localhost:8080 -t public public/index.php",
